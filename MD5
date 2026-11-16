@@ -1,0 +1,7 @@
+625e7ddb3e672b9e7d912ad72baad94b *DESCRIPTION
+2cc671cc60c42f18edaa609660d8a0ff *NAMESPACE
+ec15abe18016382ce6ad012c8f3ed1c5 *R/omp_set_num_threads.R
+4df3929e6b3dfe40da7ee86f58bc90d4 *README.md
+09fdfb623d1c0be68f59e7fcdee5efc5 *man/omp_set_num_threads.Rd
+95e3011e37d9dde0d75f3a3819b2acd3 *src/Makevars
+ef94d4082809c00454e4ee2118c8d4aa *src/omp_set_num_threads_ptr.c
