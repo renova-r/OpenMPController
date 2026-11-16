@@ -1,5 +1,5 @@
 Package: OpenMPController
-Version: 0.2.5.9001
+Version: 0.2.5.9002
 Author: Simon Guest [aut, cre]
 Maintainer: Simon Guest <simon.guest@tesujimath.org>
 Authors@R: person(given = "Simon", family = "Guest", role = c("aut", "cre"), email = "simon.guest@tesujimath.org")

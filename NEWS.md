@@ -1,3 +1,8 @@
+# OpenMPController 0.2.5.9002
+
+- `src/omp_set_num_threads_ptr.c`: the `#ifdef _OPENMP` / `#include <omp.h>` / `#endif` block now comes before `#include <R.h>`, `<Rinternals.h>` and `<Rconfig.h>`. `Rinternals.h` defines `match` as `Rf_match`; when `omp.h` was included afterwards, its `#pragma omp begin declare variant match(...)` lines were macro-expanded and the Windows ARM64 (clang, Rtools 4.5) build failed. No function body, signature or native-routine registration changed.
+- `DESCRIPTION`: `Version` set to `0.2.5.9002`.
+
 # OpenMPController 0.2.5.9001
 
 Renova release, based on CRAN OpenMPController 0.2-5 (archived on CRAN 2021-09-25).

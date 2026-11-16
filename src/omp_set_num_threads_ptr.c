@@ -1,9 +1,9 @@
-#include <R.h>
-#include <Rinternals.h>
-#include <Rconfig.h>
 #ifdef _OPENMP
 #include <omp.h>
 #endif
+#include <R.h>
+#include <Rinternals.h>
+#include <Rconfig.h>
 
 /* a C routine callable from R to set number of OpenMP threads
  * - does nothing on platforms which don't support OpenMP
